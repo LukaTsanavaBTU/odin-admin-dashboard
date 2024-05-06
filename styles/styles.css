@@ -254,6 +254,7 @@ main {
     display: grid;
     grid-template-rows: auto 1fr;
     &>div {
+        align-content: start;
         background-color: white;
         border-radius: 10px;
         padding: 20px;
